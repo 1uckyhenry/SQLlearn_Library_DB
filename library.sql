@@ -128,7 +128,7 @@ CREATE TABLE `readers` (
   `science_degree` varchar(50) DEFAULT NULL,
   `occupation` varchar(40) NOT NULL,
   `education_mode` varchar(25) DEFAULT NULL,
-  `group` varchar(10) DEFAULT NULL,
+  `groups` varchar(10) DEFAULT NULL,
   `status` varchar(25) NOT NULL,
   PRIMARY KEY (`reader_id`),
   UNIQUE KEY `XPKreaders` (`reader_id`)
